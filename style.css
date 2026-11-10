@@ -1,0 +1,210 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F8FC;
+    color: #394B5A;
+}
+
+header {
+    min-height: 400px;
+    background-color: #B9D9EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nome h1 {
+    color: #FFFFFF;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 3px #548DB5;
+}
+
+.gif-titulo {
+    width: 250px;
+    height: auto;
+    display: block;
+}
+
+.container {
+    width: 90%;
+    max-width: 1050px;
+    margin: auto;
+}
+
+section {
+    width: 90%;
+    max-width: 1050px;
+    margin: 50px auto;
+    padding: 35px;
+    background-color: #FFFFFF;
+    border: 2px solid #D5E6F2;
+    border-radius: 15px;
+}
+
+#História {
+    background-color: #FFFBEA;
+    border-color: #F2E7B9;
+}
+
+.História {
+    width: 100%;
+}
+
+.sobre-informacoes h2 {
+    color: #548DB5;
+}
+
+section h2 {
+    color: #548DB5;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section p {
+    color: #465766;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.forma {
+    display: flex;
+    justify-content: center;
+}
+
+.formações {
+    width: 100%;
+}
+
+.formação {
+    padding: 25px;
+    background-color: #FFFBEA;
+    border: 2px solid #F2E7B9;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.foto-biografia {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.foto-biografia img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #B9D9EF;
+}
+
+.formação h3 {
+    color: #548DB5;
+    font-size: 21px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 100%;
+    padding: 25px;
+    background-color: #FFFBEA;
+    border: 2px solid #F2E7B9;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    background-color: #FFF8D9;
+}
+
+.card h3 {
+    color: #548DB5;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#redes-sociais {
+    background-color: #FFFFFF;
+    border: 2px solid #D5E6F2;
+    text-align: center;
+}
+
+#redes-sociais .participantes-lista {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #FFFBEA;
+    border: 2px solid #F2E7B9;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#redes-sociais .participantes-lista p {
+    text-align: center;
+    margin: 12px 0;
+    color: #548DB5;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    header {
+        min-height: 320px;
+    }
+
+    .nome h1 {
+        font-size: 34px;
+    }
+
+    .gif-titulo {
+        width: 200px;
+    }
+
+    section {
+        width: 92%;
+        padding: 25px 18px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section p {
+        font-size: 15px;
+    }
+
+    .formação,
+    .card {
+        padding: 20px;
+    }
+}
