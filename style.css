@@ -20,7 +20,49 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 25px 15px;
+    padding: 25px 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 25px;
+    padding: 8px;
+    background-color: #A5CBE5;
+    border: 1px solid #D5E6F2;
+    border-radius: 30px;
+    box-shadow: 0 3px 8px rgba(84, 141, 181, 0.12);
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 11px 17px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #FFFFFF;
+    color: #548DB5;
+    box-shadow: 0 2px 6px rgba(84, 141, 181, 0.15);
+}
+
+@media (max-width: 800px) {
+    .menu {
+        gap: 5px;
+        border-radius: 18px;
+    }
+
+    .menu a {
+        font-size: 13px;
+        padding: 9px 12px;
+    }
 }
 
 .menu {
